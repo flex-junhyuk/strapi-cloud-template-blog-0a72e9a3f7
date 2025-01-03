@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cta_positions",
+  "info": {
+    "singularName": "cta-position",
+    "pluralName": "cta-positions",
+    "displayName": "CTAPosition"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    }
+  }
+}

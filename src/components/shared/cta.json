@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_shared_ctas",
+  "info": {
+    "displayName": "CTA",
+    "icon": "alien"
+  },
+  "options": {},
+  "attributes": {
+    "cta_position": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta-position.cta-position"
+    },
+    "cta_style": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cta-style.cta-style"
+    },
+    "title": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    }
+  }
+}

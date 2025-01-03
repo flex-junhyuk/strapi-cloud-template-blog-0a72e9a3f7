@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * shit controller
+ * cta-style controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::shit.shit');
+module.exports = createCoreController('api::cta-style.cta-style');
